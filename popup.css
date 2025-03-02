@@ -125,6 +125,20 @@ body {
   color: var(--primary-dark);
 }
 
+.icon-button[title="Delete Resume"] {
+  color: var(--accent);
+}
+
+.icon-button[title="Delete Resume"]:hover {
+  background: var(--accent-light);
+  color: white;
+  border-color: var(--accent);
+}
+
+.no-resume .icon-button[title="Delete Resume"] {
+  display: none;
+}
+
 .no-resume .resume-container {
   border: 2px dashed var(--border);
   background: var(--surface);
